@@ -251,3 +251,8 @@ html, body {
   background-image: url('images/hsbnu-logo.png');
   background-repeat: no-repeat;
 }
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
