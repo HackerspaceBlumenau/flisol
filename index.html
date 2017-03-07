@@ -11,18 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-deep_orange.min.css" />
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
+    <link rel="stylesheet" href="/flisol/styles.css">
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -31,19 +20,29 @@
           <h3>FLISoL 2017 Blumenau</h3>
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a id="sobre" href="#sobre" class="mdl-layout__tab is-active">Sobre</a>
-          <a id="grade" href="#grade" class="mdl-layout__tab">Grade</a>
-          <a href="installfest/index.html" class="mdl-layout__tab">Install Fest</a>
+          <a href="/flisol" class="mdl-layout__tab is-active">Sobre</a>
+          <a href="/flisol/grade.html" class="mdl-layout__tab">Grade</a>
+          <a href="/flisol/installfest.html" class="mdl-layout__tab">Install Fest</a>
           <a href="https://www.sympla.com.br/flisol-2017-blumenau__122804" class="mdl-layout__tab">Inscrição</a>
         </div>
       </header>
-      <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="sobre">
+<!--       <main class="mdl-layout__content">
+        <div class="mdl-demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="mdl-demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
 
+
+
+          </div>
+        </div>
+      </main> -->
+
+      <main class="mdl-layout__content">
+        <div class="mdl-demo-container mdl-grid">
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__media">
-                <img class="article-image" src=" images/flisol-banner.png" border="0" alt="FLISoL 2017 Blumenau">
+                <img class="article-image" src="/flisol/images/flisol-banner.png" border="0" alt="FLISoL 2017 Blumenau">
               </div>
               <div class="mdl-card__supporting-text">
                 <h4>O Evento</h4>
@@ -95,13 +94,13 @@
             <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text">
                 <h4>Onde irá acontecer?</h4>
-                O FLISoL 2017 acontecerá no dia 08 de abril no Campus I da Universidade Regional de Blumenau.
+                O FLISoL 2017 acontecerá no dia 08 de abril no Campus I da Universidade Regional de Blumenau. A FURB está localizada na R. Antônio da Veiga número 140 no bairro Itoupave Seca.
               </div>
               <div class="mdl-card__actions">
                 <a target="_blank"
-                   href="#" class="mdl-button">Adicionar na agenda</a>
+                   href="#" class="mdl-button">Adicionar na agenda <i class="material-icons">event</i></a>
                 <a target="_blank"
-                   href="https://www.google.com.br/maps/place/Funda%C3%A7%C3%A3o+Universidade+Regional+de+Blumenau,+C%C3%A2mpus+1+Central/@-26.908787,-49.0803595,17z/data=!4m5!3m4!1s0x0:0x94bfd90a4896a4ad!8m2!3d-26.905737!4d-49.0790042" class="mdl-button">Ver no mapa</a>
+                   href="https://www.google.com.br/maps/place/Funda%C3%A7%C3%A3o+Universidade+Regional+de+Blumenau,+C%C3%A2mpus+1+Central/@-26.908787,-49.0803595,17z/data=!4m5!3m4!1s0x0:0x94bfd90a4896a4ad!8m2!3d-26.905737!4d-49.0790042" class="mdl-button">Ver no mapa <i class="material-icons">place</i></a>
               </div>
             </div>
           </section>
@@ -131,21 +130,23 @@
               </div>
             </div>
           </section>
-        </div>
-        <div class="mdl-layout__tab-panel" id="grade">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <h4>Em Breve</h4>
-              <p>Envie sua palestra ou workshop <a href="https://goo.gl/forms/OnEmzZeDoi0umiYW2">aqui</a>.</p>
-              <p>As palestras e workshops estarão disponíveis a partir do dia 15 de março.</p>
-              <br>
-              <br>
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col">Patrocínio</h4>
+                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                  <div class="section__circle-container__circle logo-hsbnu"></div>
+                </div>
+                <div class="mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                  <h6>Seja um patrocinador. Envie um email para <a href="mailto:hackerspaceblumenau@gmail.com">hackerspaceblumenau@gmail.com</a>.</h6>
+                </div>
+              </div>
             </div>
           </section>
         </div>
 
         <div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
-
       </main>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
