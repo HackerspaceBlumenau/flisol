@@ -272,3 +272,33 @@ img.article-image {
   padding: 0;
   width: 100%;
 }
+
+.grade-table {
+  white-space: pre-wrap;
+}
+
+.grade-table {
+  white-space: normal;
+}
+
+.grade-table .start-time {
+  width: 65px;
+  text-align: center;
+}
+
+.grade-table .title {
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.grade-table .person {
+  font-style: italic;
+}
+
+.grade-table .description {
+  margin: 0;
+}
+
+.grade-table tr:hover {
+    background-color: #fff !important;
+}
