@@ -228,6 +228,16 @@ html, body {
   background-repeat: no-repeat;
 }
 
+.logo-bludata {
+  background-image: url('/flisol/images/bludata-logo.png');
+  background-repeat: no-repeat;
+}
+
+.logo-pv {
+  background-image: url('/flisol/images/pv-logo.png');
+  background-repeat: no-repeat;
+}
+
 img.article-image {
   width: 100%;
   height: auto;
