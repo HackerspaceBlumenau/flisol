@@ -216,26 +216,37 @@ html, body {
 .logo-furb {
   background-image: url('/flisol/images/furb-logo.png');
   background-repeat: no-repeat;
+  border-radius: 0 !important;
 }
 
 .logo-calcomp {
   background-image: url('/flisol/images/calcomp-logo.png');
   background-repeat: no-repeat;
+  border-radius: 0 !important;
 }
 
 .logo-hsbnu {
   background-image: url('/flisol/images/hsbnu-logo.png');
   background-repeat: no-repeat;
+  border-radius: 0 !important;
 }
 
 .logo-bludata {
   background-image: url('/flisol/images/bludata-logo.png');
   background-repeat: no-repeat;
+  border-radius: 0 !important;
 }
 
 .logo-pv {
   background-image: url('/flisol/images/pv-logo.png');
   background-repeat: no-repeat;
+  border-radius: 0 !important;
+}
+
+.logo-filipeflop {
+  background-image: url('/flisol/images/filipeflop-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
 }
 
 img.article-image {
