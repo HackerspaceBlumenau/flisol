@@ -217,37 +217,51 @@ html, body {
   background-image: url('/flisol/images/furb-logo.png');
   background-repeat: no-repeat;
   border-radius: 0 !important;
+  display: block;
 }
 
 .logo-calcomp {
   background-image: url('/flisol/images/calcomp-logo.png');
   background-repeat: no-repeat;
   border-radius: 0 !important;
+  display: block;
 }
 
 .logo-hsbnu {
   background-image: url('/flisol/images/hsbnu-logo.png');
   background-repeat: no-repeat;
   border-radius: 0 !important;
+  display: block;
 }
 
 .logo-bludata {
   background-image: url('/flisol/images/bludata-logo.png');
   background-repeat: no-repeat;
   border-radius: 0 !important;
+  display: block;
 }
 
 .logo-pv {
   background-image: url('/flisol/images/pv-logo.png');
   background-repeat: no-repeat;
   border-radius: 0 !important;
+  display: block;
 }
 
 .logo-filipeflop {
   background-image: url('/flisol/images/filipeflop-logo.png');
   background-repeat: no-repeat;
   border-radius: 0 !important;
+  display: block;
 }
+
+.logo-novatec {
+  background-image: url('/flisol/images/novatec-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
 
 img.article-image {
   width: 100%;
