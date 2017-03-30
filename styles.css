@@ -262,6 +262,19 @@ html, body {
   display: block;
 }
 
+.logo-unifique {
+  background-image: url('/flisol/images/unifique-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-oys {
+  background-image: url('/flisol/images/oys-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
 
 img.article-image {
   width: 100%;
