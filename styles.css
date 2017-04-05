@@ -276,6 +276,13 @@ html, body {
   display: block;
 }
 
+.logo-walltime {
+  background-image: url('/flisol/images/walltime-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
 img.article-image {
   width: 100%;
   height: auto;
