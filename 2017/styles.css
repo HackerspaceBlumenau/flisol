@@ -213,6 +213,76 @@ html, body {
   z-index: 99;
 }
 
+.logo-furb {
+  background-image: url('/flisol/2017/images/furb-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-calcomp {
+  background-image: url('/flisol/2017/images/calcomp-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-hsbnu {
+  background-image: url('/flisol/2017/images/hsbnu-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-bludata {
+  background-image: url('/flisol/2017/images/bludata-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-pv {
+  background-image: url('/flisol/2017/images/pv-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-filipeflop {
+  background-image: url('/flisol/2017/images/filipeflop-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-novatec {
+  background-image: url('/flisol/2017/images/novatec-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-unifique {
+  background-image: url('/flisol/2017/images/unifique-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-oys {
+  background-image: url('/flisol/2017/images/oys-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.logo-walltime {
+  background-image: url('/flisol/2017/images/walltime-logo.png');
+  background-repeat: no-repeat;
+  border-radius: 0 !important;
+  display: block;
+}
+
 img.article-image {
   width: 100%;
   height: auto;
@@ -299,13 +369,6 @@ img.article-image {
   box-sizing: border-box;
 }
 
-.logo-hsbnu {
-  background-image: url('/flisol/images/hsbnu-logo.png');
-  background-repeat: no-repeat;
-  border-radius: 0 !important;
-  display: block;
-}
-
-#sympla-widget-234227 {
+#sympla-widget-122804 {
   max-width: 100% !important;
 }
