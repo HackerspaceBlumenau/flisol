@@ -116,6 +116,10 @@ html, body {
   z-index: 999;
 }
 
+.mdl-demo .mdl-layout__content {
+  height: 100%;
+}
+
 .mdl-demo .mdl-layout__content section:not(:last-of-type) {
   position: relative;
   margin-bottom: 48px;
@@ -228,9 +232,10 @@ img.article-image {
 }
 
 .mdl-demo-container {
-    max-width: 1600px;
-    width: calc(100% - 16px);
-    margin: 0 auto;
+  min-height: 70%;
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
 }
 
 .mdl-demo-content {
