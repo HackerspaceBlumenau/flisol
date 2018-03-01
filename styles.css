@@ -197,6 +197,11 @@ a img{
   max-width: 860px;
 }
 
+.flisol-grid {
+  padding-top: 24px;
+  display: block;
+}
+
 .logo-hsbnu {
   background-image: url('/flisol/images/hsbnu-logo.png');
   background-repeat: no-repeat;
