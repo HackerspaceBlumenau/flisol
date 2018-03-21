@@ -213,7 +213,7 @@ a img{
   border-radius: 0 !important;
   display: block;
   width: 64px;
-  height: 64px;
+  height: auto;
   position: absolute;
   top: 0;
   bottom: 0;
