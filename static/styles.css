@@ -36,6 +36,7 @@ a img{
 }
 
 .flisol-header .mdl-navigation__link {
+  white-space: nowrap;
   font-weight: 700;
   font-size: 14px;
 }
@@ -44,7 +45,7 @@ a img{
   /* Simple hack to make the overflow happen to the left instead... */
   direction: rtl;
   order: 1;
-  width: 500px;
+  width: 80%;
   transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
       width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -53,7 +54,7 @@ a img{
   /* ... and now make sure the content is actually LTR */
   direction: ltr;
   justify-content: flex-end;
-  width: 800px;
+  width: 100%;
 }
 
 .flisol-navigation .mdl-navigation__link {
@@ -263,7 +264,7 @@ a img{
 }
 
 /**** Mobile layout ****/
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .flisol-navigation-container {
     display: none;
   }
@@ -271,5 +272,11 @@ a img{
   .flisol-footer .mdl-mega-footer--bottom-section a {
     display: block;
     padding: 4px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mdl-layout__header-row .mdl-navigation__link {
+    padding: 0 12px;
   }
 }
