@@ -41,8 +41,8 @@
   <link rel="icon" href="/flisol/static/images/icon-144.png" sizes="144x144">
   <link rel="icon" href="/flisol/static/images/icon-192.png" sizes="192x192">
 </head>
-<body>
-  <nav class="bg-yellow-600">
+<body class="min-h-screen flex flex-col">
+  <nav class="flex-none bg-yellow-600">
     <div class="mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -58,7 +58,8 @@
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-grow flex items-center">
-            <a href="/flisol/" class="pl-12 sm:pl-0 text-white text-xl font-semibold tracking-wide">FLISoL Blumenau</a>
+            <img src="/flisol/static/images/flisol-logo-white.svg" width="32" height="32" class="ml-12 md:ml-0">
+            <a href="/flisol/" class="pl-2 text-white text-xl font-semibold tracking-wide">FLISoL Blumenau</a>
           </div>
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
@@ -82,7 +83,7 @@
     </div>
   </nav>
 
-  <div class="lg:px-12 bg-gray-50">
+  <div class="flex-none lg:px-12 bg-gray-50">
     <div class="mx-auto py-12 px-4 flex flex-col lg:px-12 lg:py-12 lg:flex-row lg:items-center lg:justify-between">
       <h2 class="text-2xl lg:text-3xl font-extrabold tracking-tight text-gray-900 text-center">
         <span class="block">O Call 4 Papers está aberto!</span>
@@ -99,19 +100,80 @@
     </div>
   </div>
 
-  <div class="py-12 lg:px-12 bg-white">
+  <div class="flex-grow py-12 lg:px-12 bg-white">
     <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-3xl text-yellow-600 font-semibold tracking-wide uppercase">Agenda</h2>
         <div class="mt-8">
-          <p>Agenda estará disponível a partir de 1 de Abril.</p>
+          <p class="pb-2">A agenda estará disponível a partir de 1 de Abril.</p>
+          <!--
+          <div class="mt-4 shadow overflow-hidden border-b border-gray-200 max-w-4xl m-auto sm:rounded-lg">
+            <div class="flex flex-col lg:flex-row">
+              <div class="m-auto px-2 py-2">
+                <span class="px-4 py-1 text-sm leading-5 font-semibold rounded-full bg-yellow-600 text-white">
+                  10:00
+                </span>
+              </div>
+              <div class="flex flex-col max-w-4xl m-auto">
+                <div class="text-lg font-semibold whitespace-nowrap text-gray-900 mt-4">
+                  <span>Lorem ipsum dolor sit amet</span>
+                </div>
+                <div class="flex justify-center whitespace-nowrap mt-2">
+                  <div class="ml-4">
+                    <div class="text-base font-mediumtext-gray-900">
+                      Capivara Junior
+                    </div>
+                    <div class="text-sm text-gray-500">
+                      Hackerspace Blumenau
+                    </div>
+                  </div>
+                </div>
+                <div class="px-6 py-4">
+                  <div class="text-sm text-gray-500">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis tristique velit, quis molestie neque. Phasellus vel posuere tortor. Duis vel felis id libero finibus elementum quis in sem. Etiam dictum nibh id malesuada scelerisque. Nunc velit sem, feugiat in ipsum sed, suscipit maximus nulla. In convallis ullamcorper massa vitae pharetra. Aenean placerat convallis efficitur. Proin finibus, dui id faucibus rhoncus, nunc ante pulvinar tortor, in rhoncus nisl odio vitae quam. Praesent eget rhoncus nisl. Etiam mollis facilisis magna quis luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 shadow overflow-hidden border-b border-gray-200 max-w-4xl m-auto sm:rounded-lg">
+            <div class="flex flex-col lg:flex-row">
+              <div class="m-auto px-2 py-2">
+                <span class="px-4 py-1 text-sm leading-5 font-semibold rounded-full bg-yellow-600 text-white">
+                  10:00
+                </span>
+              </div>
+              <div class="flex flex-col max-w-4xl m-auto">
+                <div class="text-lg font-semibold whitespace-nowrap text-gray-900 mt-4">
+                  <span>Lorem ipsum dolor sit amet</span>
+                </div>
+                <div class="flex justify-center whitespace-nowrap mt-2">
+                  <div class="ml-4">
+                    <div class="text-base font-mediumtext-gray-900">
+                      Capivara Junior
+                    </div>
+                    <div class="text-sm text-gray-500">
+                      Hackerspace Blumenau
+                    </div>
+                  </div>
+                </div>
+                <div class="px-6 py-4">
+                  <div class="text-sm text-gray-500">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis tristique velit, quis molestie neque. Phasellus vel posuere tortor. Duis vel felis id libero finibus elementum quis in sem. Etiam dictum nibh id malesuada scelerisque. Nunc velit sem, feugiat in ipsum sed, suscipit maximus nulla. In convallis ullamcorper massa vitae pharetra. Aenean placerat convallis efficitur. Proin finibus, dui id faucibus rhoncus, nunc ante pulvinar tortor, in rhoncus nisl odio vitae quam. Praesent eget rhoncus nisl. Etiam mollis facilisis magna quis luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
         </div>
       </div>
     </div>
   </div>
 
-  <footer class="border-t border-solid border-yellow-300 py-4 mx-4 ">
-    <div class="flex flex-col lg:flex-row lg:justify-center text-center text-base text-gray-500">
+  <footer class="flex-none border-t border-solid border-yellow-300 py-4 mx-4">
+    <div class="flex flex-col lg:flex-row lg:justify-center text-center text-base text-yellow-600">
       <div class="my-1 lg:mx-2">
         <a href="/flisol/edicoes">Edições anteriores</a>
       </div>
@@ -119,7 +181,7 @@
         <a href="/flisol/galeria">Galeria de Fotos</a>
       </div>
     </div>
-    <div class="mt-2 text-center text-xs text-gray-500">
+    <div class="mt-4 text-center text-xs text-gray-500">
       <p>&copy; Copyright 2021 Hackerspace Blumenau</p>
     </div>
   </footer>
