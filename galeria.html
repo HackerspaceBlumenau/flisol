@@ -40,6 +40,15 @@
   <link rel="icon" href="/flisol/static/images/icon-64.png" sizes="64x64">
   <link rel="icon" href="/flisol/static/images/icon-144.png" sizes="144x144">
   <link rel="icon" href="/flisol/static/images/icon-192.png" sizes="192x192">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-46PK6EW4BB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-46PK6EW4BB');
+  </script>
 </head>
 <body class="min-h-screen flex flex-col">
   <nav class="flex-none bg-yellow-600">
@@ -66,7 +75,6 @@
               <a href="/flisol/agenda" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Agenda</a>
               <a href="/flisol/installfest" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">InstallFest</a>
               <a href="/flisol/inscricao" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Inscrição</a>
-              <a href="/flisol/como-participar" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Como Participar</a>
               <a href="/flisol/patrocinadores" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Patrocinadores</a>
             </div>
           </div>
@@ -79,31 +87,10 @@
         <a href="/flisol/agenda" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Agenda</a>
         <a href="/flisol/installfest" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">InstallFest</a>
         <a href="/flisol/inscricao" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Inscrição</a>
-        <a href="/flisol/como-participar" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Como Participar</a>
         <a href="/flisol/patrocinadores" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Patrocinadores</a>
       </div>
     </div>
   </nav>
-
-  <!--
-  <div class="flex-none lg:px-12 bg-gray-50">
-    <div class="mx-auto max-w-6xl py-12 px-4 flex flex-col lg:px-12 lg:py-12 lg:flex-row lg:items-center lg:justify-between">
-      <h2 class="text-2xl lg:text-3xl font-extrabold tracking-tight text-gray-900 text-center">
-        <span class="block">Anote em sua agenda!</span>
-        <span class="block text-yellow-600">24 de Abril das 10:00 às 17:00</span>
-      </h2>
-      <div class="mt-8 mx-auto lg:mt-0 lg:mx-0">
-        <div class="rounded-md shadow">
-          <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDZjN3Fvc2E2NWRvdnBlMW4wdGcxMDhtc3IgaGFja2Vyc3BhY2VibHVtZW5hdUBt&tmsrc=hackerspaceblumenau%40gmail.com"
-             class="px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-yellow-500 hover:bg-yellow-600"
-             target="_blank">
-            Adicionar na agenda
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
 
   <div class="flex-grow py-12 lg:px-12 bg-white">
     <div class="mx-auto px-4 sm:px-6 lg:px-8">
@@ -159,7 +146,7 @@
       </div>
     </div>
     <div class="mt-4 text-center text-xs text-gray-500">
-      <p>&copy; Copyright 2021 Hackerspace Blumenau</p>
+      <p>&copy; 2023 Hackerspace Blumenau</p>
     </div>
   </footer>
 
@@ -172,16 +159,6 @@
         e.className = ""
       }
     }
-  </script>
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-91819658-3', 'auto');
-    ga('send', 'pageview');
   </script>
 </body>
 </html>
