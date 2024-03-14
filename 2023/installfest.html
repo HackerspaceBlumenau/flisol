@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <title>FLISoL Blumenau - InstallFest</title>
+
+  <!-- Facebook -->
+  <meta property="og:site_name" content="FLISoL Blumenau"/>
+  <meta property="og:title" content="FLISoL Blumenau - InstallFest"/>
+  <meta property="og:url" content="https://www.hackerspaceblumenau.org/flisol/2023/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="O Festival Latino-americano de Instalação de Software Livre (FLISoL) é o maior evento de divulgação de Software Livre da América Latina."/>
+  <meta property="og:locale" content="pt_BR"/>
+  <meta property="og:image" content="https://www.hackerspaceblumenau.org/flisol/2023/static/images/flisol-logo.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="FLISoL Blumenau - InstallFest"/>
+  <meta name="twitter:description" content="O Festival Latino-americano de Instalação de Software Livre (FLISoL) é o maior evento de divulgação de Software Livre da América Latina."/>
+  <meta name="twitter:site" content="@hackerspacebnu"/>
+  <meta name="twitter:url" content="https://www.hackerspaceblumenau.org/flisol/2023/"/>
+  <meta name="twitter:image" content="https://www.hackerspaceblumenau.org/flisol/2023/static/images/flisol-logo.png">
+
+  <meta itemprop="name" content="FLISoL Blumenau"/>
+  <meta itemprop="url" content="https://www.hackerspaceblumenau.org/flisol/2023/"/>
+  <meta itemprop="image" content="https://www.hackerspaceblumenau.org/flisol/2023/static/images/flisol-logo.png"/>
+  <meta itemprop="description" content="O Festival Latino-americano de Instalação de Software Livre (FLISoL) é o maior evento de divulgação de Software Livre da América Latina."/>
+
+  <meta name="author" content="FLISoL Blumenau"/>
+  <meta name="description" content="O Festival Latino-americano de Instalação de Software Livre (FLISoL) é o maior evento de divulgação de Software Livre da América Latina."/>
+  <meta name="keywords" content="flisol, blumenau, open source, software livre, foss, desenvolvimento, tecnologia, evento, meetup"/>
+
+  <link href="/flisol/2023/static/tailwind/tailwind.min.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/flisol/2023/static/images/icon-64.png">
+  <link rel="icon" href="/flisol/2023/static/images/icon-32.png" sizes="32x32">
+  <link rel="icon" href="/flisol/2023/static/images/icon-64.png" sizes="64x64">
+  <link rel="icon" href="/flisol/2023/static/images/icon-144.png" sizes="144x144">
+  <link rel="icon" href="/flisol/2023/static/images/icon-192.png" sizes="192x192">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-46PK6EW4BB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-46PK6EW4BB');
+  </script>
+</head>
+<body class="min-h-screen flex flex-col">
+  <nav class="flex-none bg-yellow-600">
+    <div class="mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <button onclick="toggleMenu()"
+                  class="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-expanded="false">
+            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex-grow flex items-center">
+            <img src="/flisol/2023/static/images/flisol-logo-white.svg" width="32" height="32" class="ml-12 md:ml-0">
+            <a href="/flisol/2023/" class="pl-2 text-white text-xl font-semibold tracking-wide">FLISoL Blumenau</a>
+          </div>
+          <div class="hidden sm:block sm:ml-6">
+            <div class="flex space-x-4">
+              <a href="/flisol/2023/agenda" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Agenda</a>
+              <a href="/flisol/2023/installfest" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">InstallFest</a>
+              <a href="/flisol/2023/inscricao" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Inscrição</a>
+              <a href="/flisol/2023/patrocinadores" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Patrocinadores</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden" id="nav-menu-mobile">
+      <div class="px-2 pt-2 pb-3 space-y-1 flex flex-col">
+        <a href="/flisol/2023/agenda" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Agenda</a>
+        <a href="/flisol/2023/installfest" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">InstallFest</a>
+        <a href="/flisol/2023/inscricao" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Inscrição</a>
+        <a href="/flisol/2023/patrocinadores" class="text-white hover:bg-yellow-700 px-3 py-2 rounded-md text-sm font-medium">Patrocinadores</a>
+      </div>
+    </div>
+  </nav>
+
+  <!--
+  <div class="flex-none lg:px-12 bg-gray-50">
+    <div class="mx-auto max-w-6xl py-12 px-4 flex flex-col lg:px-12 lg:py-12 lg:flex-row lg:items-center lg:justify-between">
+      <h2 class="text-2xl lg:text-3xl font-extrabold tracking-tight text-gray-900 text-center">
+        <span class="block">Anote em sua agenda!</span>
+        <span class="block text-yellow-600">24 de Abril das 10:00 às 17:00</span>
+      </h2>
+      <div class="mt-8 mx-auto lg:mt-0 lg:mx-0">
+        <div class="rounded-md shadow">
+          <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MDZjN3Fvc2E2NWRvdnBlMW4wdGcxMDhtc3IgaGFja2Vyc3BhY2VibHVtZW5hdUBt&tmsrc=hackerspaceblumenau%40gmail.com"
+             class="px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-yellow-500 hover:bg-yellow-600"
+             target="_blank">
+            Adicionar na agenda
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+
+  <div class="flex-grow py-12 lg:px-12 bg-white">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl text-yellow-600 font-semibold tracking-wide uppercase text-center">InstallFest</h2>
+      <div class="mt-8">
+        <p>
+          É um espaço destinado para que a comunidade instale ou tire dúvidas sobre o sistema operacional Linux e aplicativos de código aberto no Linux, Windows e macOS.
+        </p>
+        <p>
+          Durante o InstallFest você terá o acompanhamendo de uma pessoa com conhecimento técnico no assunto.
+        </p>
+
+        <h3 class="mt-4 mb-2 text-base text-yellow-600 font-semibold tracking-wide uppercase">A quem de destina?</h3>
+        <p>A todos que desejam usar software livre de alguma forma. Você provalmente gostará de participar se deseja:</p>
+        <ul class="list-disc list-inside mt-2">
+          <li>Usar Linux (openSUSE, Fedora, Ubuntu, entre outras distribuições).</li>
+          <li>Resolver algum problema com a sua instalação Linux.</li>
+          <li>Instalar um aplicativo de código aberto no Linux, Windows ou macOS (LibreOffice, Firefox, entre outros).</li>
+        </ul>
+
+        <h3 class="mt-4 mb-2 text-base text-yellow-600 font-semibold tracking-wide uppercase">Regras</h3>
+        <ul class="list-disc list-inside mt-2">
+          <li>Traga preferencialmente o seu notebook, desktops poderão ser um problema devido ao espaço limitado.</li>
+          <li>Traga carregadores, adaptadores para o padrão novo e se possível extensões.</li>
+          <li>
+            Para participar do evento você deverá obrigatóriamente assinar a um termo de resposabilidade onde concordará que todo e qualquer problema decorrente do sistema operacional ou dos aplicativos agregados não é responsabilidade dos organizadores do FLISoL e/ou dos patrocinadores, apoiadores e organizadores do evento.
+          </li>
+          <li>Não nos resposabilizaremos backups. Faça backup antes do evento.</li>
+          <li>Não nos resposabilizaremos pelo transporte do seu equipamento.</li>
+          <li>Não nos resposabilizaremos por furtos e roubos de equipamentos. Lembre-se, você estará em um ambiente público, tome cuidado com o seu equipamento.</li>
+        </ul>
+
+        <h3 class="mt-4 mb-2 text-base text-yellow-600 font-semibold tracking-wide uppercase">Softwares disponíveis</h3>
+        <p>Software livre disponível para instalação no Linux, Windows e macOS.</p>
+        <ul class="list-disc list-inside mt-2">
+          <li>Audacity - Editor de áudio</li>
+          <li>Blender - Animação 3D</li>
+          <li>Firefox - Browser Web</li>
+          <li>GIMP - Editor de images</li>
+          <li>LibreOffice - Suite Office</li>
+          <li>OBS Studio - Broadcast de vídeo</li>
+          <li>Pidgin - Mensageiro estilo MSN</li>
+          <li>VLC - Player de áudio e vídeo</li>
+          <li>XChat - Cliente IRC</li>
+          <li>Entre outros</li>
+        </ul>
+
+        <h3 class="mt-4 mb-2 text-base text-yellow-600 font-semibold tracking-wide uppercase">Jogos disponíveis</h3>
+        <p>Jogos livre disponível para instalação no Linux, Windows e macOS.</p>
+        <ul class="list-disc list-inside mt-2">
+          <li>0 A.D - Jogo medieval</li>
+          <li>OpenTTD - Jogo baseado no Transport Tycoon</li>
+          <li>SuperTuxKart - Jogo 3D de corrida</li>
+          <li>Entre outros</li>
+        </ul>
+
+        <h3 class="mt-4 mb-2 text-base text-yellow-600 font-semibold tracking-wide uppercase">Distros disponíveis</h3>
+        <p>Distribuições Linux disponíveis para instalação.</p>
+        <ul class="list-disc list-inside mt-2">
+          <li>openSUSE</li>
+          <li>Fedora</li>
+          <li>Ubuntu</li>
+          <li>Entre outras</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="flex-none border-t border-solid border-yellow-300 py-4 mx-4">
+    <div class="flex flex-col lg:flex-row lg:justify-center text-center text-base text-yellow-600">
+      <div class="my-1 lg:mx-2">
+        <a href="/flisol/2023/edicoes">Edições anteriores</a>
+      </div>
+      <div class="my-1 lg:mx-2">
+        <a href="/flisol/2023/galeria">Galeria de Fotos</a>
+      </div>
+    </div>
+    <div class="mt-4 text-center text-xs text-gray-500">
+      <p>&copy; 2023 Hackerspace Blumenau</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    function toggleMenu() {
+      var e = document.getElementById("nav-menu-mobile");
+      if (e.className === "") {
+        e.className = "hidden"
+      } else {
+        e.className = ""
+      }
+    }
+  </script>
+</body>
+</html>
