@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mx-auto px-4 sm:px-6 lg:px-8">
+  <h2 class="text-2xl text-flisol font-semibold uppercase text-center">
+    Call4Papers
+  </h2>
+
+  <div class="mt-8 text-center">
+    <p class="pb-1">Envie a sua proposa de palestra, oficina, colabore no Installfest ou seja voluntário.</p>
+    <p class="my-8">
+      <a href="{{ page.form }}"
+         target="_blank"
+         class="rounded-md shadow px-8 py-4 border border-transparent text-base font-medium text-white bg-flisol hover:bg-orange-500">
+        Enviar Proposta
+      </a>
+    </p>
+
+    <p class="font-extrabold">Fique atento!</p>
+    <p>O prazo para enviar sua proposta é até dia 31 de Março.</p>
+
+    <h3 class="pt-4 text-1xl text-flisol font-semibold uppercase">
+      Sugestões de temas
+    </h3>
+    <ul class="list-inside my-2">
+      <li class="mb-1">Inteligência Artificial</li>
+      <li class="mb-1">Containers e Virtualização</li>
+      <li class="mb-1">Linguages de Programação</li>
+      <li class="mb-1">Internet das Coisas (IoT)</li>
+      <li class="mb-1">Monitoramento e Segurança</li>
+      <li class="mb-1">Distribuições Linux</li>
+      <li class="mb-1">Qualidade e Testes</li>
+    </ul>
+  </div>
+</div>
+{% endblock %}

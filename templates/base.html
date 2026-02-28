@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <title>{{ site.title }}{% if page.title and page.template != 'index' %} &#8212; {{ page.title }}{% endif %}</title>
+
+  <!-- Facebook -->
+  <meta property="og:site_name" content="{{ site.title }}"/>
+  <meta property="og:title" content="{{ site.title }}{% if page.title and page.template != 'index' %} &#8212; {{ page.title }}{% endif %}"/>
+  <meta property="og:url" content="{{ page.full_url }}"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+  <meta property="og:locale" content="{{ site.locale }}"/>
+  <meta property="og:image" content="{{ site.logo }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="{{ site.title }}{% if page.title and page.template != 'index' %} &#8212; {{ page.title }}{% endif %}"/>
+  <meta name="twitter:description" content="{{ site.description }}"/>
+  <meta name="twitter:site" content="@hackerspacebnu"/>
+  <meta name="twitter:url" content="{{ page.full_url }}"/>
+  <meta name="twitter:image" content="{{ site.logo }}">
+
+  <meta itemprop="name" content="{{ site.title }}{% if page.title and page.template != 'index' %} &#8212; {{ page.title }}{% endif %}"/>
+  <meta itemprop="url" content="{{ site.url }}"/>
+  <meta itemprop="image" content="{{ site.logo }}"/>
+  <meta itemprop="description" content="{{ site.description }}"/>
+
+  <meta name="author" content="{{ site.title }}"/>
+  <meta name="description" content="{{ site.description }}"/>
+  <meta name="keywords" content="{{ site.keywords }}"/>
+
+  {% for icon in site.icons %}
+  {% if icon.name == 'main' %}
+  <link rel="shortcut icon" href="{{ icon.url }}">
+  {% else %}
+  <link rel="icon" href="{{ icon.url }}" sizes="{{ icon.name }}">
+  {% endif %}
+  {% endfor %}
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-flisol: #ff8e2a;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+  <nav class="flex-none bg-flisol">
+    <div class="mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <button onclick="toggleMenu()"
+                  aria-expanded="false"
+                  class="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-flisol focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <svg class="block h-6 w-6"
+                 xmlns="http://www.w3.org/2000/svg"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke="currentColor"
+                 aria-hidden="true">
+              <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg class="hidden h-6 w-6"
+                 xmlns="http://www.w3.org/2000/svg"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke="currentColor"
+                 aria-hidden="true">
+              <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex-grow flex items-center">
+            <img src="{{ edition.nav.logo }}"
+                 width="32"
+                 height="32"
+                 class="ml-12 md:ml-0">
+            <a href="{{ edition.url }}"
+               class="pl-2 text-white text-xl font-semibold">{{ edition.title }}</a>
+          </div>
+          <div class="hidden sm:block sm:ml-6">
+            <div class="flex space-x-4">
+              {% for menu in edition.nav.menus %}
+              <a href="{{ get_menu_url(menu.slug) }}"
+                 class="text-white hover:bg-orange-500 px-3 py-2 rounded-md text-sm font-medium">{{ menu.name }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden" id="nav-menu-mobile">
+      <div class="px-2 pt-2 pb-3 space-y-1 flex flex-col">
+        {% for menu in edition.nav.menus %}
+        <a href="{{ get_menu_url(menu.slug) }}"
+           class="text-white hover:bg-orange-500 px-3 py-2 rounded-md text-sm font-medium">{{ menu.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </nav>
+
+  {% if edition.banner and page.template == 'index' %}
+  <div class="flex-none lg:px-12 bg-gray-50">
+    <div class="mx-auto max-w-6xl py-12 px-4 flex flex-col lg:px-12 lg:py-12 lg:flex-row lg:items-center lg:justify-between">
+      <h2 class="text-2xl lg:text-3xl font-extrabold tracking-tight text-gray-900 text-center">
+        <span class="block">{{ edition.banner.message }}</span>
+      </h2>
+      <div class="mt-8 mx-auto lg:mt-0 lg:mx-0">
+        <div class="rounded-md shadow">
+          <a href="{{ edition.banner.url }}"
+             class="px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-flisol hover:bg-orange-500">
+            {{ edition.banner.action }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="flex-grow py-12 lg:max-w-6xl lg:m-auto bg-white">
+  {% block content %}{% endblock %}
+  </div>
+
+  <footer class="flex-none border-t border-solid border-flisol py-4 mx-4">
+    <div class="flex flex-col lg:flex-row lg:justify-center text-center text-flisol">
+      {% for menu in edition.footer.menus %}
+      <div class="my-1 lg:mx-2">
+        <a href="{{ get_menu_url(menu.slug) }}">{{ menu.name }}</a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="mt-4 text-center text-xs text-gray-600">
+      <p>&copy; {{ edition.year }} {{ site.title }}</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    function toggleMenu() {
+      var e = document.getElementById("nav-menu-mobile");
+      if (e.className === "") {
+        e.className = "hidden"
+      } else {
+        e.className = ""
+      }
+    }
+  </script>
+</body>
+</html>

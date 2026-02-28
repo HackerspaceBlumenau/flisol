@@ -1,0 +1,441 @@
+title: FLISoL Blumenau
+description: O Festival Latino-americano de Instalação de Software Livre (FLISoL) é o maior evento de divulgação de Software Livre da América Latina.
+keywords: flisol, blumenau, open source, software livre, foss, desenvolvimento, tecnologia, evento, meetup
+url: https://www.hackerspaceblumenau.net.br/flisol/
+logo: https://www.hackerspaceblumenau.net.br/flisol/static/images/flisol-logo.png
+locale: pt_BR
+
+icons:
+  - name: main
+    url: /flisol/static/images/icon-64.png
+  - name: 32x32
+    url: /flisol/static/images/icon-32.png
+  - name: 64x64
+    url: /flisol/static/images/icon-64.png
+  - name: 144x144
+    url: /flisol/static/images/icon-144.png
+  - name: 192x192
+    url: /flisol/static/images/icon-192.png
+
+photos:
+  cover: /flisol/static/images/selfie-flisol.jpg
+  albums:
+    - year: 2019
+      url: https://photos.app.goo.gl/54xswAxtE9UxVBzUA/
+    - year: 2018
+      url: https://photos.app.goo.gl/Zmrty5h63QwSyFLN2/
+    - year: 2017
+      url: https://goo.gl/photos/iut2b3yzPCmyf3Kv8/
+
+current_edition: 2026
+
+editions:
+  - title: FLISoL Blumenau 2026
+    year: 2026
+    banner:
+      message: Participe do FLISoL Blumenau!
+      action: Inscreva-se
+      url: /flisol/inscricao
+    location: |
+      Universidade Regional de Blumenau
+      Auditorio do bloco T (T-110)
+      Campus I
+      R. Antônio da Veiga, 140
+    date: 25 de abril de 2026 das 9:00 às 17:00
+    organizer:
+      name: Hackerspace Blumenau
+      url: https://www.hackerspaceblumenau.net.br/
+      logo: /flisol/static/images/hsbnu-logo.png
+    supporters:
+      - name: Universidade Regional de Blumenau
+        url: https://www.furb.br
+        logo: /flisol/static/images/2026/furb-logo.png
+    sponsors:
+      # - name: 
+      #   url: 
+      #   logo: /flisol/static/images/2026/name-logo.png
+    nav:
+      logo: /flisol/static/images/flisol-logo-white.svg
+      menus:
+        - name: CALL4PAPPERS
+          slug: cfp
+        - name: Inscrição
+          slug: inscricao
+        - name: Agenda
+          slug: agenda
+        - name: Installfest
+          slug: installfest
+    footer:
+      menus:
+      - name: Galeria de fotos
+        slug: galeria
+      - name: Edições anteriores
+        slug: edicoes
+    pages:
+      - title: Index
+        slug: index
+        template: index
+        location: 
+      - title: Agenda
+        slug: agenda
+        template: agenda
+      - title: Installfest
+        slug: installfest
+        template: installfest
+      - title: Inscrição
+        slug: inscricao
+        template: inscricao
+        form: https://www.sympla.com.br/evento/flisol-blumenau-2026/3328445
+      - title: CALL4PAPPERS
+        slug: cfp
+        template: cfp
+        form: https://forms.gle/5x73dyTarK418mPj8
+      - title: Edições anteriores
+        slug: edicoes
+        template: edicoes
+      - title: Galeria de fotos
+        slug: galeria
+        template: galeria
+  - title: FLISoL Blumenau 2024
+    year: 2024
+    date: 27 de abril de 2024 das 10:00 às 18:30
+    location: |
+      Universidade Regional de Blumenau
+      Campus I
+    organizer:
+      name: Hackerspace Blumenau
+      url: https://www.hackerspaceblumenau.net.br/
+      logo: /flisol/static/images/hsbnu-logo.png
+    supporters:
+      - name: Universidade Regional de Blumenau
+        url: https://www.furb.br
+        logo: /flisol/static/images/2026/furb-logo.png
+    nav:
+      logo: /flisol/static/images/flisol-logo-white.svg
+      menus:
+        - name: Inscrição
+          slug: inscricao
+        - name: Agenda
+          slug: agenda
+        - name: Installfest
+          slug: installfest
+    footer:
+      menus:
+      - name: Galeria de fotos
+        slug: galeria
+      - name: Edições anteriores
+        slug: edicoes
+    pages:
+      - title: Index
+        slug: index
+        template: index
+      - title: Agenda
+        slug: agenda
+        template: agenda
+      - title: Installfest
+        slug: installfest
+        template: installfest
+      - title: Inscrição
+        slug: inscricao
+        template: inscricao
+        form: https://www.sympla.com.br/evento/flisol-blumenau-2024/2423517
+      - title: Edições anteriores
+        slug: edicoes
+        template: edicoes
+      - title: Galeria de fotos
+        slug: galeria
+        template: galeria
+    talks:
+      - title: Quebrando Barreiras com Python - Inovação e Soluções Descomplicadas
+        type: talk
+        time: '10:15'
+        speaker: Jairo Lenfers
+        role: Líder Técnico
+        company: Locaweb SA
+      - title: Automatizando o gerenciamento de identidades centralizado com FreeIPA e Ansible
+        type: talk
+        time: '11:15'
+        speaker: Rafael Jeffman
+        role: Software Engineer
+        company: RedHat
+      - title: Pausa Almoço
+        type: break
+        time: '12:15'
+      - title: Consumo de uma API com Flask e Python
+        type: talk
+        time: '13:30'
+        speaker: Anaísa Teodoro
+        role: Estudante
+      - title: Dokuwiki e a superimportância da documentação na TI
+        type: talk
+        time: '14:30'
+        speaker: Mario Xavier
+        role: Analista de Infraestrutura
+        company: Ibrowse
+      - title: Lockpicking - Explorando a segurança física 
+        type: workshop
+        time: '14:30'
+        speaker: Eduardo Gadotti
+        role: Cybersecurity Manager
+      - title: Ciência do passado Moldando o Futuro
+        type: talk
+        time: '15:30'
+        speaker: Rannyer Thom
+        role: Instrutor
+        company: Proway
+      - title: Encerramento / Foto oficial / Coffe break / Networking
+        time: '16:30'
+        type: break
+  - title: FLISoL Blumenau 2023
+    year: 2023
+    date: 15 de abril das 10:00 às 17:00
+    location: |
+      Universidade Regional de Blumenau
+      Campus I
+    organizer:
+      name: Hackerspace Blumenau
+      url: https://www.hackerspaceblumenau.net.br/
+      logo: /flisol/static/images/hsbnu-logo.png
+    supporters:
+      - name: Universidade Regional de Blumenau
+        url: https://www.furb.br
+        logo: /flisol/static/images/2023/furb-logo.png
+    sponsors:
+      - name: ProWay
+        url: https://www.proway.com.br/
+        logo: /flisol/static/images/2023/proway-logo.svg
+      - name: Edgium
+        url: https://edgium.net/
+        logo: /flisol/static/images/2023/edgium-logo.png
+      - name: Blunix
+        url: https://blunix.com.br/
+        logo: /flisol/static/images/2023/blunix-logo.png
+    nav:
+      logo: /flisol/static/images/flisol-logo-white.svg
+      menus:
+        - name: Inscrição
+          slug: inscricao
+        - name: Agenda
+          slug: agenda
+        - name: Installfest
+          slug: installfest
+    footer:
+      menus:
+      - name: Galeria de fotos
+        slug: galeria
+      - name: Edições anteriores
+        slug: edicoes
+    pages:
+      - title: Index
+        slug: index
+        template: index
+      - title: Agenda
+        slug: agenda
+        template: agenda
+      - title: Installfest
+        slug: installfest
+        template: installfest
+      - title: Inscrição
+        slug: inscricao
+        template: inscricao
+        form: https://www.sympla.com.br/flisol-blumenau__1937975
+      - title: Edições anteriores
+        slug: edicoes
+        template: edicoes
+      - title: Galeria de fotos
+        slug: galeria
+        template: galeria
+    talks:
+    - time: "09:30"
+      title: Recepção
+      description: Recepção e credenciamento com cafézinho patrocinado pela Blunix e Edgium.
+      type: break
+    - time: "10:00"
+      title: Abertura
+      description: Início do evento.
+      type: break
+    - time: "10:10"
+      title: Ubuntu Touch - A liberdade está em suas mãos!
+      description: Uma opção livre se opõe às big techs do mundo mobile. Continuando o sonho desenhado pela Canonical, o Ubuntu Touch é um sistema mobile que une a liberdade do software livre com a segurança e liberdade de um sistema convergente.
+      speaker: Lucas Bernardes da Silva
+      role: Product Owner
+      company: WK Sistemas
+    - time: "10:50"
+      title: Os desafios e falácias dos projetos de implementação da proteção de dados
+      description: Apresentação de questões práticas dos desafios enfrentados no dia a dia dos projetos de implementação da LGPD nas empresas.
+      speaker: André Luiz Schneider
+      role: 
+      company: SSR Advogados
+    - time: "12:00"
+      title: Almoço
+      description: Intervalo para almoço.
+      type: break
+    - time: "13:10"
+      title: Open Source na AWS
+      description: Explorando como a AWS usa e fornece soluções de código aberto, esta palestra destaca vantagens e desafios da implementação e uso destas soluções. Ideal para desenvolvedores, arquitetos e engenheiros de infraestrutura interessados no tema.
+      speaker: Jonathan André Schweder
+      role: System Development Engineer
+      company: AWS
+    - time: "14:00"
+      title: Carreira com Software Livre
+      description: O Software Livre está cada vez mais bem-visto, e contribuir com ele ajuda muito a melhorar seu CV. Nesta palestra serão mostrados passos de como iniciar a contribuir e talvez até futuramente trabalhar em uma empresa que cria e mantém projetos de código aberto.
+      speaker: Marcos Paulo de Souza
+      role: Kernel Livepatch Developer
+      company: SUSE
+    - time: "14:40"
+      title: Loc-OS Linux 22
+      description: Apresentação do Loc-OS, uma distribuição focada no baixo consumo de recursos.
+      speaker: Nicolas Longardi
+      role: 
+      company: "Loc-OS"
+    - time: "15:10"
+      title: Café
+      description: Intervalo para café, com comes e bebes patrocinado pela Blunix e Edgium.
+      type: break
+    - time: "15:30"
+      title: Do monitoramento a observabilidade
+      description: Uma breve introdução ao imenso universo do monitoramento e da observabilidade em sistemas desenvolvidos para internet (SaaS) e suas peculiaridades. Abrangendo conceitos e ferramentas disponíveis no mercado de forma Open Source.
+      speaker: Tonin Bolzan
+      role: SRE Manager
+      company: CRM PipeRun
+    - time: "16:10"
+      title: Pitch de ideias
+      description: Geralmente temos pouco tempo para conseguir que outras pessoas comprem as nossas ideias. São os primeiros instantes da comunicação que precisam mostrar que a nossa ideia vale a pena.
+      speaker: Santhyago Gallao
+      role: Software Developer Manager
+      company: 
+    - time: "16:50"
+      title: Encerramento
+      description: Encerramento do evento.
+      type: break
+    - time: "10:30 - 12:00"
+      title: Web Scraping com Python na prática
+      description: Aprenda um pouco sobre os conceitos de web scraping, realize algumas raspagens em sites conhecidos enquanto aprendemos mais sobre as bibliotecas Python - BeautifulSoup e Scrapy.
+      speaker: Leonardo Fiedler
+      role: Data Engineer
+      company: Senior Sistemas
+      type: workshop
+    - time: "14:00 - 16:00"
+      title: Flutter na prática
+      description: Introdução à conceitos e prática para a criação de aplicativos móveis (Android ou iOS) com o framework Flutter.
+      speaker: Fernando Duwe
+      role: Analista de Sistemas e Instrutor
+      company: ProWay
+      type: workshop
+  - title: FLISoL Blumenau 2021
+    year: 2021
+    date: O FLISoL acontecerá no dia 24 de Abril das 10:00 às 17:00 de forma virtual devido a pandemia.
+    location: É necessário se inscrever no evento para receber as informações de como participar.
+    organizer:
+      name: Hackerspace Blumenau
+      url: https://www.hackerspaceblumenau.net.br/
+      logo: /flisol/static/images/hsbnu-logo.png
+    supporters:
+      - name: Buteco Tecnológico
+        url: https://butecotecnologico.com.br/
+        logo: /flisol/static/images/2021/buteco-logo.svg
+    sponsors:
+      - name: ProWay
+        url: https://www.proway.com.br/
+        logo: /flisol/static/images/2021/proway-logo.svg
+      - name: Projeto Franzininho
+        url: https://franzininho.com.br/
+        logo: /flisol/static/images/2021/franzininho-logo.png
+    nav:
+      logo: /flisol/static/images/flisol-logo-white.svg
+      menus:
+        - name: Inscrição
+          slug: inscricao
+        - name: Agenda
+          slug: agenda
+        - name: Installfest
+          slug: installfest
+    footer:
+      menus:
+      - name: Galeria de fotos
+        slug: galeria
+      - name: Edições anteriores
+        slug: edicoes
+    pages:
+      - title: Index
+        slug: index
+        template: index
+      - title: Agenda
+        slug: agenda
+        template: agenda
+      - title: Installfest
+        slug: installfest
+        template: installfest
+      - title: Inscrição
+        slug: inscricao
+        template: inscricao
+        form: https://www.sympla.com.br/flisol-blumenau__1937975
+      - title: Edições anteriores
+        slug: edicoes
+        template: edicoes
+      - title: Galeria de fotos
+        slug: galeria
+        template: galeria
+    talks:
+      - time: "10:00"
+        title: Abertura
+        description: Início do evento.
+      - time: "10:10"
+        title: OnlyOffice - Sua nova suíte de escritório
+        description: Conheça a suíte de escritório OnlyOffice, que é livre e de código aberto, que roda na nuvem, desktop, mobile e servidor. Aprenda também formas de contribuição com o projeto.
+        speaker: Klaibson Ribeiro
+        recording: 
+        slides: 
+      - time: "10:50"
+        title: Rodando containers em um Raspberry PI
+        description: Demonstração de como mesmo em hardware realmente pequenos e limitados podemos embarcar containers com soluções para demandas do dia-a-dia.
+        speaker: Fabricio Machado
+        recording: 
+        slides: 
+      - time: "11:20"
+        title: Franzininho - Open hardware, educação e comunidade
+        description: Iremos conversar sobre o projeto Franzininho e como uma iniciativa open hardware da comunidade pode contribuir para educação, desenvolvimento tecnológico e acesso a tecnologia em nosso país.
+        speaker: Fábio Souza
+        recording: 
+        slides: 
+      - time: "12:15"
+        title: Intervalo
+        description: Intervalo para almoço.
+      - time: "13:30"
+        title: CANnino - Hardware para protocolo CAN embarcado
+        description: A CANino é o embrião de um projeto open-hardware, que visa aproximar o setor automotivo ao mundo IOT através de uma interface barata, amigável e pronta para o uso industrial no conceito Hardware in the Loop.
+        speaker: Vinicius May
+        recording: 
+        slides: 
+      - time: "14:00"
+        title: A tecnologia e o software livre como suporte à educação em tempos de COVID-19
+        description: Em tempos de pandemia, o ensino a distância se tornou essencial, mas também evidenciou diversos problemas. Esta palestra abordará questões sobre como a tecnologia e o software livre podem ajudar a melhorar este cenário.
+        speaker: Ricardo Lüders
+        recording: 
+        slides: 
+      - time: "15:00"
+        title: Intervalo
+        description: Intervalo para café.
+      - time: "15:20"
+        title: Pitacos sobre a TI verde e o lixo eletrônico
+        description: Um resumo sobre temas ligados ao descarte e reuso de eletrônicos com objetivo de cativar a consciência ambiental.
+        speaker: Luiz Rauber Rodrigues
+        recording: 
+        slides: 
+      - time: "16:00"
+        title: Odoo 14.0 - O ERP que está revolucionando a pegada Open Source no ambiente corporativo
+        description: O Odoo é o software ERP Open Source mais utilizado no mundo. Nos últimos anos vem chamando atenção de diversas organizações pela sua modularidade e facilidade de personalização.
+        speaker: Éder Barbosa de Brito
+        recording: 
+        slides: 
+      - time: "17:00"
+        title: Encerramento
+        description: Encerramento do evento.
+      - time: "13:00"
+        title: Conhecendo Flutter - O que é, onde vive, o que come?
+        description: Aprenda os conceitos do Flutter, gerência de estado e afins com uma seção de live coding pra galera ver na prática tudo que vimos na parte teórica.
+        speaker: Filipe Veber
+      - time: "15:00"
+        title: Criando e publicando microsserviços FastAPI
+        description: Aprenda a criar serviços com FastApi, usando Python, sqlite, e testando localmente com locust.
+        speaker: Leonardo Rocha

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mx-auto px-4 sm:px-6 lg:px-8">
+  <h2 class="text-2xl text-flisol font-semibold uppercase text-center">
+    Edições anteriores
+  </h2>
+
+  <div class="mt-8 text-center">
+    <p class="pb-2">Confira o que rolou nas edições anteriores.</p>
+    {% for edition in site.editions %}
+    {% if edition.year != site.current_edition %}
+    <div class="py-4">
+      <a href="{{ edition.url }}"
+         class="px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-flisol hover:bg-orange-500">
+        <span class="text-2xl text-white font-semibold">{{ edition.year }}</span>
+      </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

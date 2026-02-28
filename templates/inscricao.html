@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mx-auto px-4 sm:px-6 lg:px-8">
+  <h2 class="text-2xl text-flisol font-semibold uppercase text-center">
+    Inscrição
+  </h2>
+
+  <div class="mt-8 text-center">
+    <p class="pb-1">O evento é <strong>gratuito</strong>, porém recomendamos que se inscreva para melhorar a organização do evento.</p>
+    <p class="pb-1">O evento é aberto para o público em geral e visa difundir o software livre na região.</p>
+    <p class="pb-1">Durante o dia do evento serão realizadas <strong>palestras</strong>, <strong>oficinas</strong> e o <strong>Installfest</strong>.</p>
+    <p class="pb-1">Será emitido um <strong>certificado de participação</strong> para os atendentes do evento.</p>
+
+    <div class="p-10">
+      <a href="{{ page.form }}"
+         class="px-8 py-4 border border-transparent text-base font-medium rounded-md text-white bg-flisol hover:bg-orange-500"
+         target="_blank">Inscreva-se</a>
+    </div>
+
+    <p class="pb-1"><b>Lembre-se</b> de convidar seus amigos(as) e colegas de trabalho.</p>
+  </div>
+</div>
+{% endblock %}
