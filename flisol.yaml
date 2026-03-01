@@ -38,10 +38,12 @@ editions:
       url: /flisol/inscricao
     location: |
       Universidade Regional de Blumenau
-      Auditorio do bloco T (T-110)
+      Auditório do bloco T (T-110)
       Campus I
       R. Antônio da Veiga, 140
-    date: 25 de abril de 2026 das 9:00 às 17:00
+    date: |
+      25 de abril de 2026
+      9:00 às 17:00
     organizer:
       name: Hackerspace Blumenau
       url: https://www.hackerspaceblumenau.net.br/
@@ -260,6 +262,13 @@ editions:
       speaker: Lucas Bernardes da Silva
       role: Product Owner
       company: WK Sistemas
+    - time: "10:30"
+      title: Web Scraping com Python na prática
+      description: Aprenda um pouco sobre os conceitos de web scraping, realize algumas raspagens em sites conhecidos enquanto aprendemos mais sobre as bibliotecas Python - BeautifulSoup e Scrapy.
+      speaker: Leonardo Fiedler
+      role: Data Engineer
+      company: Senior Sistemas
+      type: workshop
     - time: "10:50"
       title: Os desafios e falácias dos projetos de implementação da proteção de dados
       description: Apresentação de questões práticas dos desafios enfrentados no dia a dia dos projetos de implementação da LGPD nas empresas.
@@ -282,6 +291,13 @@ editions:
       speaker: Marcos Paulo de Souza
       role: Kernel Livepatch Developer
       company: SUSE
+    - time: "14:00"
+      title: Flutter na prática
+      description: Introdução à conceitos e prática para a criação de aplicativos móveis (Android ou iOS) com o framework Flutter.
+      speaker: Fernando Duwe
+      role: Analista de Sistemas e Instrutor
+      company: ProWay
+      type: workshop
     - time: "14:40"
       title: Loc-OS Linux 22
       description: Apresentação do Loc-OS, uma distribuição focada no baixo consumo de recursos.
@@ -308,20 +324,6 @@ editions:
       title: Encerramento
       description: Encerramento do evento.
       type: break
-    - time: "10:30 - 12:00"
-      title: Web Scraping com Python na prática
-      description: Aprenda um pouco sobre os conceitos de web scraping, realize algumas raspagens em sites conhecidos enquanto aprendemos mais sobre as bibliotecas Python - BeautifulSoup e Scrapy.
-      speaker: Leonardo Fiedler
-      role: Data Engineer
-      company: Senior Sistemas
-      type: workshop
-    - time: "14:00 - 16:00"
-      title: Flutter na prática
-      description: Introdução à conceitos e prática para a criação de aplicativos móveis (Android ou iOS) com o framework Flutter.
-      speaker: Fernando Duwe
-      role: Analista de Sistemas e Instrutor
-      company: ProWay
-      type: workshop
   - title: FLISoL Blumenau 2021
     year: 2021
     date: O FLISoL acontecerá no dia 24 de Abril das 10:00 às 17:00 de forma virtual devido a pandemia.
