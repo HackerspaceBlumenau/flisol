@@ -14,7 +14,7 @@
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="{{ site.description }}"/>
   <meta property="og:locale" content="{{ site.locale }}"/>
-  <meta property="og:image" content="{{ site.logo }}">
+  <meta property="og:image" content="{{ page.logo|default(site.logo) }}">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary"/>
@@ -22,11 +22,11 @@
   <meta name="twitter:description" content="{{ site.description }}"/>
   <meta name="twitter:site" content="@hackerspacebnu"/>
   <meta name="twitter:url" content="{{ page.full_url }}"/>
-  <meta name="twitter:image" content="{{ site.logo }}">
+  <meta name="twitter:image" content="{{ page.logo|default(site.logo) }}">
 
   <meta itemprop="name" content="{{ site.title }}{% if page.title and page.template != 'index' %} &#8212; {{ page.title }}{% endif %}"/>
   <meta itemprop="url" content="{{ site.url }}"/>
-  <meta itemprop="image" content="{{ site.logo }}"/>
+  <meta itemprop="image" content="{{ page.logo|default(site.logo) }}"/>
   <meta itemprop="description" content="{{ site.description }}"/>
 
   <meta name="author" content="{{ site.title }}"/>
@@ -129,7 +129,7 @@
   </div>
   {% endif %}
 
-  <div class="flex-grow py-12 lg:max-w-6xl lg:m-auto bg-white">
+  <div class="flex-grow py-6 lg:max-w-6xl lg:m-auto bg-white">
   {% block content %}{% endblock %}
   </div>
 

@@ -2,7 +2,7 @@ title: FLISoL Blumenau
 description: O Festival Latino-americano de Instalação de Software Livre (FLISoL) é o maior evento de divulgação de Software Livre da América Latina.
 keywords: flisol, blumenau, open source, software livre, foss, desenvolvimento, tecnologia, evento, meetup
 url: https://www.hackerspaceblumenau.net.br/flisol/
-logo: https://www.hackerspaceblumenau.net.br/flisol/static/images/flisol-logo.png
+logo: https://www.hackerspaceblumenau.net.br/flisol/static/images/flisol-logo-full.png
 locale: pt_BR
 
 icons:
@@ -20,6 +20,8 @@ icons:
 photos:
   cover: /flisol/static/images/selfie-flisol.jpg
   albums:
+    - year: 2023
+      url: https://photos.app.goo.gl/qzKdeQ8cvd2bBmsQ6/
     - year: 2019
       url: https://photos.app.goo.gl/54xswAxtE9UxVBzUA/
     - year: 2018
@@ -88,10 +90,12 @@ editions:
         slug: inscricao
         template: inscricao
         form: https://www.sympla.com.br/evento/flisol-blumenau-2026/3328445
+        logo: https://www.hackerspaceblumenau.net.br/flisol/static/images/2026/inscricao.png
       - title: CALL4PAPPERS
         slug: cfp
         template: cfp
         form: https://forms.gle/5x73dyTarK418mPj8
+        logo: https://www.hackerspaceblumenau.net.br/flisol/static/images/2026/cfp.png
       - title: Edições anteriores
         slug: edicoes
         template: edicoes
