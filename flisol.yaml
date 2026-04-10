@@ -106,7 +106,7 @@ editions:
         slug: galeria
         template: galeria
     talks:
-      - title: Credenciamento e cafézinho
+      - title: Recepção e cafézinho
         description: Recepção e credenciamento com um cafézinho patrocinado pela Geeko Foundation.
         type: talk
         time: '8:30'
