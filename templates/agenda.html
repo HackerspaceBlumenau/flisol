@@ -13,7 +13,7 @@
 
     <div class="mt-4 shadow shadow-flisol overflow-hidden max-w-4xl m-auto sm:rounded-lg">
     {% for talk in edition.talks %}
-      <div class="flex flex-col lg:flex-row shadow shadow-flisol">
+      <div class="flex flex-col lg:flex-row {% if not loop.last %}border-b border-flisol{% endif %}">
         <div class="m-auto px-2 py-2 flex-grow-0">
           <span class="px-4 py-1 text-sm leading-5 font-semibold rounded-full bg-flisol text-white whitespace-nowrap">
             {{ talk.time }}
@@ -35,15 +35,21 @@
           {% endif %}
           <div class="flex justify-center whitespace-nowrap my-2">
             <div>
+              {% if talk.speaker %}
               <div class="text-base font-medium text-gray-900">
                 {{ talk.speaker }}
               </div>
+              {% endif %}
+              {% if talk.role %}
               <div class="text-sm font-medium text-gray-600">
                 {{ talk.role }}
               </div>
+              {% endif %}
+              {% if talk.company %}
               <div class="text-sm font-medium text-gray-600">
                 {{ talk.company }}
               </div>
+              {% endif %}
             </div>
           </div>
         </div>

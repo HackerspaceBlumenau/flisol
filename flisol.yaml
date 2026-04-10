@@ -55,14 +55,17 @@ editions:
         url: https://www.furb.br
         logo: /flisol/static/images/2026/furb-logo.png
     sponsors:
-      # - name: 
-      #   url: 
-      #   logo: /flisol/static/images/2026/name-logo.png
+      - name: Geeko Foundation
+        url: https://geekos.org/
+        logo: /flisol/static/images/2026/geeko-logo.png
+      - name: Novatec Editora
+        url: https://www.novatec.com.br/
+        logo: /flisol/static/images/2026/novatec-logo.png
     nav:
       logo: /flisol/static/images/flisol-logo-white.svg
       menus:
-        - name: CALL4PAPPERS
-          slug: cfp
+        # - name: CALL4PAPPERS
+        #   slug: cfp
         - name: Inscrição
           slug: inscricao
         - name: Agenda
@@ -102,6 +105,99 @@ editions:
       - title: Galeria de fotos
         slug: galeria
         template: galeria
+    talks:
+      - title: Credenciamento e cafézinho
+        description: Recepção e credenciamento com um cafézinho patrocinado pela Geeko Foundation.
+        type: talk
+        time: '8:30'
+      - title: Abertura
+        description: Abertura do evento e avisos gerais.
+        type: talk
+        time: '9:10'
+        speaker:
+        role:
+        company: Hackerspace Blumenau
+      - title: Meu MVC virou um monstro 👹 — Refatorando um sistema PHP legado sem jogar tudo fora
+        description: |
+          Sistemas crescem e aquele MVC “organizado” vira um monstro: regras espalhadas, controllers 
+          inchados e models sobrecarregados. Na palestra compartilho a refatoração real de um PHP, 
+          evoluindo para uma arquitetura com Services, sem reescrever do zero.
+        type: talk
+        time: '9:40'
+        speaker: Denis Brandl
+        role: CTO
+        company: Maestria Sistema
+      - title: Computação Competitiva
+        description: |
+          O objetivo da palestra é introduzir as pessoas aos conceitos e websites de Programação Competitiva,
+          e explicar algoritmos avançados como: Algoritmo de Exponenciação Binária e Algoritmo Z,
+          e estruturas como: Árvore de Segmentação e Árvore de Fenwick.
+        type: talk
+        time: '10:20'
+        speaker: Anderson Rodrigo Pozzi
+        role: Desenvolvedor de Sistemas
+        company:
+      - title: Direito, Cultura e o Software Livre
+        description: |
+          A palestra analisa a relação entre Direito, Cultura e SL, abordando copyleft, copyright, impactos do floss 
+          na inovação no setor público e privado, na economia, e os desafios jurídicos do desenvolvimento colaborativo.
+        type: talk
+        time: '11:00'
+        speaker: Lucas Vinicius de Morais Cesar
+        role: Autônomo
+        company:
+      - title: Almoço
+        description: Intervalo para almoço.
+        type: talk
+        time: '12:00'
+      - title: Installfest
+        description:
+        type: workshop
+        time: '13:00'
+      - title: TBD
+        description:
+        type: talk
+        time: '13:00'
+        speaker:
+        role:
+        company:
+      - title: virtme-ng — O melhor amigo do desenvolvedor Linux
+        description: |
+          Esta palestra vai apresentar a ferramenta virtme-ng, amplamente utilizada por desenvolvedores do kernel Linux e 
+          outros projetos de software livre por possibilitar a criação de uma máquina virtual em segundos.
+        type: talk
+        time: '14:00'
+        speaker: Marcos Paulo de Souza
+        role: Kernel Livepatch Developer
+        company: SUSE
+      - title: Linux 2.0. Entenda o Modelo Imutável
+        description: |
+          As distribuições Linux estão passando por uma mudança estrutural. 
+          Em vez do modelo tradicional onde atualizações modificam diretamente o sistema e podem gerar inconsistências 
+          surge um novo paradigma: o modelo atômico e imutável.'
+        type: talk
+        time: '14:40'
+        speaker: Jefferson Carneiro
+        role: DevOps
+        company:
+      - title: Cafézinho
+        description: Pausa para um cafézinho patrocinado pela Geeko Foundation.
+        type: talk
+        time: '15:30'
+      - title: TBD
+        description: 
+        type: talk
+        time: '15:50'
+        speaker:
+        role:
+        company:
+      - title: Encerramento
+        description: Encerramento do evento com sorteios e foto em grupo.
+        type: talk
+        time: '16:45'
+        speaker:
+        role:
+        company: Hackerspace Blumenau
   - title: FLISoL Blumenau 2024
     year: 2024
     date: 27 de abril de 2024 das 10:00 às 18:30
