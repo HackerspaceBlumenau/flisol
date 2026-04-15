@@ -151,16 +151,20 @@ editions:
         type: talk
         time: '12:00'
       - title: Installfest
-        description:
+        description: |
+          Uma oficina destinada para que a comunidade instale ou tire dúvidas sobre o distribuições Linux 
+          e aplicativos de código aberto.
         type: workshop
         time: '13:00'
-      - title: TBD
-        description:
+      - title: Fedora e IA
+        description: |
+          Uma visão completa sobre a visão do Fedora sobre uso de IA na contribuição, discussões sobre limites e responsabilidades. 
+          Ferramentas disponíveis em nossos repositórios para permitir o uso e desenvolvimento diretamente no nosso sistema operacional.
         type: talk
         time: '13:00'
-        speaker:
-        role:
-        company:
+        speaker: Wolnei Junior
+        role: Embaixador
+        company: Fedora Project
       - title: virtme-ng — O melhor amigo do desenvolvedor Linux
         description: |
           Esta palestra vai apresentar a ferramenta virtme-ng, amplamente utilizada por desenvolvedores do kernel Linux e 
@@ -184,13 +188,13 @@ editions:
         description: Pausa para um cafézinho patrocinado pela Geeko Foundation.
         type: talk
         time: '15:30'
-      - title: TBD
+      - title: 'IFSCee: Um visualizador de memória em C feito com IA para um TCC — da filosofia "menos é mais" ao dilema da coautoria'
         description: 
         type: talk
         time: '15:50'
-        speaker:
-        role:
-        company:
+        speaker: Gelasio Ebel Junior
+        role: Auxiliar de Informática
+        company: FURB
       - title: Encerramento
         description: Encerramento do evento com sorteios e foto em grupo.
         type: talk
