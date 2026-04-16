@@ -139,8 +139,9 @@ editions:
         company:
       - title: Direito, Cultura e o Software Livre
         description: |
-          A palestra analisa a relação entre Direito, Cultura e SL, abordando copyleft, copyright, impactos do floss 
-          na inovação no setor público e privado, na economia, e os desafios jurídicos do desenvolvimento colaborativo.
+          A palestra analisa a relação entre Direito, Cultura e SL, abordando copyleft, copyright, 
+          impactos do floss na inovação no setor público e privado, na economia, e os desafios jurídicos 
+          do desenvolvimento colaborativo.
         type: talk
         time: '11:00'
         speaker: Lucas Vinicius de Morais Cesar
@@ -152,14 +153,16 @@ editions:
         time: '12:00'
       - title: Installfest
         description: |
-          Uma oficina destinada para que a comunidade instale ou tire dúvidas sobre o distribuições Linux 
-          e aplicativos de código aberto.
+          Uma oficina destinada para que a comunidade instale ou tire dúvidas sobre o distribuições 
+          Linux e aplicativos de código aberto.
         type: workshop
         time: '13:00'
       - title: Fedora e IA
         description: |
-          Uma visão completa sobre a visão do Fedora sobre uso de IA na contribuição, discussões sobre limites e responsabilidades. 
-          Ferramentas disponíveis em nossos repositórios para permitir o uso e desenvolvimento diretamente no nosso sistema operacional.
+          Uma visão completa sobre a visão do Fedora sobre uso de IA na contribuição, 
+          discussões sobre limites e responsabilidades. 
+          Ferramentas disponíveis em nossos repositórios para permitir o uso e desenvolvimento 
+          diretamente no nosso sistema operacional.
         type: talk
         time: '13:00'
         speaker: Wolnei Junior
@@ -167,8 +170,9 @@ editions:
         company: Fedora Project
       - title: virtme-ng — O melhor amigo do desenvolvedor Linux
         description: |
-          Esta palestra vai apresentar a ferramenta virtme-ng, amplamente utilizada por desenvolvedores do kernel Linux e 
-          outros projetos de software livre por possibilitar a criação de uma máquina virtual em segundos.
+          Esta palestra vai apresentar a ferramenta virtme-ng, amplamente utilizada por desenvolvedores 
+          do kernel Linux e outros projetos de software livre por possibilitar a criação de uma 
+          máquina virtual em segundos.
         type: talk
         time: '14:00'
         speaker: Marcos Paulo de Souza
@@ -177,8 +181,8 @@ editions:
       - title: Linux 2.0. Entenda o Modelo Imutável
         description: |
           As distribuições Linux estão passando por uma mudança estrutural. 
-          Em vez do modelo tradicional onde atualizações modificam diretamente o sistema e podem gerar inconsistências 
-          surge um novo paradigma: o modelo atômico e imutável.'
+          Em vez do modelo tradicional onde atualizações modificam diretamente o sistema e 
+          podem gerar inconsistências surge um novo paradigma: o modelo atômico e imutável.'
         type: talk
         time: '14:40'
         speaker: Jefferson Carneiro
@@ -188,7 +192,9 @@ editions:
         description: Pausa para um cafézinho patrocinado pela Geeko Foundation.
         type: talk
         time: '15:30'
-      - title: 'IFSCee: Um visualizador de memória em C feito com IA para um TCC — da filosofia "menos é mais" ao dilema da coautoria'
+      - title: |
+          IFSCee: Um visualizador da memória de algoritmos C feito com IA para um TCC — 
+          da filosofia 'menos é mais' ao dilema da coautoria
         description: 
         type: talk
         time: '15:50'
