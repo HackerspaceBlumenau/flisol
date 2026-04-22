@@ -54,6 +54,12 @@ editions:
       - name: Universidade Regional de Blumenau
         url: https://www.furb.br
         logo: /flisol/static/images/2026/furb-logo.png
+      - name: PHP Conference Brasil
+        url: https://phpconference.com.br/
+        logo: /flisol/static/images/2026/php-conf-logo.jpg
+      - name: Dicas L
+        url: https://www.dicas-l.com.br/educacao/
+        logo: /flisol/static/images/2026/DICAS-L-logo.png
     sponsors:
       - name: Geeko Foundation
         url: https://geekos.org/
@@ -195,7 +201,10 @@ editions:
       - title: |
           IFSCee: Um visualizador da memória de algoritmos C feito com IA para um TCC — 
           da filosofia 'menos é mais' ao dilema da coautoria
-        description: 
+        description: |
+          Um visualizador de memória para o ensino de Linguagem C, desenvolvido como projeto final 
+          no curso. Escrito em JavaScript ES6, HTML5 e CSS3 puros — sem frameworks — roda inteiramente 
+          no navegador, inspirado na filosofia "menos é mais" do OpenBSD.
         type: talk
         time: '15:50'
         speaker: Gelasio Ebel Junior
