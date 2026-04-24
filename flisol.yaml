@@ -34,10 +34,10 @@ current_edition: 2026
 editions:
   - title: FLISoL Blumenau 2026
     year: 2026
-    banner:
-      message: Participe do FLISoL Blumenau!
-      action: Inscreva-se
-      url: /flisol/inscricao
+    # banner:
+    #   message: Participe do FLISoL Blumenau!
+    #   action: Inscreva-se
+    #   url: /flisol/inscricao
     location: |
       Universidade Regional de Blumenau
       Auditório do bloco T (T-110)
@@ -188,7 +188,7 @@ editions:
         description: |
           As distribuições Linux estão passando por uma mudança estrutural. 
           Em vez do modelo tradicional onde atualizações modificam diretamente o sistema e 
-          podem gerar inconsistências surge um novo paradigma: o modelo atômico e imutável.'
+          podem gerar inconsistências surge um novo paradigma: o modelo atômico e imutável.
         type: talk
         time: '14:40'
         speaker: Jefferson Carneiro
